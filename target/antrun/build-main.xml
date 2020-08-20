@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <propertyfile file="C:\Users\Frank\IdeaProjects\TotalFreedomMod/src/main/resources/build.properties" comment="Build information. Edit this to your liking.">
+    <entry default="unknown" key="buildAuthor"/>
+    <entry default="0" key="buildNumber"/>
+    <entry value="Antaeus" key="buildCodeName"/>
+    <entry value="2020.9" key="buildVersion"/>
+    <entry value="08/20/2020 00:03" key="buildDate"/>
+    <entry value="${git.commit.id.abbrev}" key="buildHead"/>
+  </propertyfile>
+</target>
+</project>

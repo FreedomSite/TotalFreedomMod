@@ -1,34 +1,14 @@
-# TFM excludes
-build.properties
-dependency-reduced-pom.xml
-
-# Netbeans excludes
-/nbproject/private
-/dist
-/build
+# Netbeans excludes - StevenLawson & JeromSar
+/nbproject/private/
+/dist/
+/build/
 manifest.mf
-# Now defines that Maven CheckStyle is used
-# nb-configuration.xml
 
-# Eclipse excludes
+# Eclipse excludes - JeromSar (old)
 .project
 .classpath
-/bin
-/.settings
-
-# IntelliJ excludes
-*.ipr
-*.iws
-/.idea/modules.xml
-/.idea/discord.xml
-/.idea/jarRepositories.xml
-/.idea/workspace.xml
-/.idea/uiDesigner.xml
-/.idea/libraries
-*.iml
-
-# Maven excludes
-/target
+/bin/
+/.settings/
 
 # OS generated files
 .DS_Store
@@ -37,3 +17,6 @@ manifest.mf
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# TFM files
+buildcreator.properties
